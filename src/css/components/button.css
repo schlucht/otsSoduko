@@ -1,0 +1,22 @@
+.btn {
+  margin: .4rem 0;
+  padding: .2rem .3rem;
+  font-size: 1.8rem;
+  width: 100%;
+  border-radius: .6rem;
+  border: 2px solid var(--crl-bg-shadow-dark);
+  outline: none;
+  /* box-shadow: 4px 4px 10px var(--crl-bg-shadow-dark),
+  -4px -4px 10px var(--crl-bg-shadow-light); */
+  background-color: var(--crl-bg-shadow-light);
+  color: var(--crl-font-dark);
+  cursor: pointer;
+  transition: all .5s;
+}
+.btn:disabled {
+  color: red;
+}
+.btn:hover, .btn:active {
+  background-color: var(--crl-bg-shadow-dark);
+  color: var(--crl-font-light);
+}

@@ -1,0 +1,32 @@
+
+
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: var(--font);
+    font-weight: 400;
+}
+h1, h2, h3 {
+    font-family: var(--font);
+    font-weight: 200;
+}
+
+li {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+img {
+    height: 3.0rem;
+    width: 3.0rem;
+    display: inline-block;
+  }

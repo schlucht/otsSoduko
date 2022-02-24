@@ -1,0 +1,16 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;400;600;800&display=swap');
+
+:root {
+    --crl-bg-color:#b5e5b3;
+    --crl-bg-shadow-dark:#9ac398;
+    --crl-bg-shadow-light: #d0ffce;
+
+    --crl-activated: rgb(223, 70, 15);
+
+    --crl-font-dark: #40583e;
+    --crl-font-light: #d0ffce;
+    --font: 'Mukta', Arial, Helvetica, sans-serif;
+}
+
+

@@ -1,0 +1,36 @@
+
+
+
+.list-item, .list-fix {
+  border: solid 1px rgba(255,255,255,.4);
+  border-radius: 0.5rem;
+  margin: .8rem .4rem;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  padding: 0 1.5rem;
+  cursor: pointer;
+  box-shadow: 4px 4px 10px var(--crl-bg-shadow-dark),
+          -4px -4px 10px var(--crl-bg-shadow-light);  
+}
+.list-item span, .list-fix span {
+  font-size: 2rem;
+  font-family: var(--font);
+  font-weight: 800;
+  color: var(--crl-text);
+}
+
+.list-fix {
+  cursor: default;
+}
+  
+.list-item[data-active='true'] {
+  background-color: tomato;
+}
+.list-item[data-active='block'] {
+  background-color: gray;
+}
+
+  
+
+
